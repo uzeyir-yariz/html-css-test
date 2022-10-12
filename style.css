@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+
+/*header*/
+
+header img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav li{
+    display: inline;
+    float: right;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(75, 72, 69);
+    border-radius: 20px;   
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+}
+
+header{
+    width: auto;
+    height: 250px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+}
+
+nav{
+    width: auto;
+    height: 80px;
+    background-color: rgb(55, 59, 59);
+    border-radius: 20px;
+    gap: 0.5rem;
+    display: flex;
+}
+
+nav a:hover, a:focus{
+    font-size: 25px;
+    cursor: default;
+    color: rgb(203, 250, 250);
+}
+
+header img:hover{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 10px;
+    cursor: default;
+}
+
+
+
+nav a:link{
+    text-decoration: none;
+}
+
+/*main*/
+
+main{
+    width: auto;
+    height: 600px;
+    background-color: rgb(73, 73, 73);
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+h1 , h2 , h3 , p{
+    color: azure;
+    padding: 20px;
+}
+
+article{
+    background-color: rgb(55, 59, 59);
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+}
+
+.PR{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: -180px;
+}
+
+hr{
+    width: 180px;
+    padding: 1px;
+}
+
+article li{
+    list-style: inside;
+    color: azure;
+}
